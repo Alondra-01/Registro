@@ -31,5 +31,29 @@ formulario.addEventListener(
         }else{
             mensaje.textContent = "";
         }
+
+        if(edad === ""){
+            errorAge.textContent = "La edad es obligatoria";
+            valido = false;
+        }else{
+            errorAge.textContent = "";
+        }
+
+        if(email === ""){
+            errorEmail.textContent = "El correo es obligatorio";
+            valido = false;
+        }else{
+            errorEmail.textContent = "";
+        }
+
+        if(telefono === ""){
+            errorPhone.textContent = "El teléfono es obligatorio";
+            valido = false;
+        }else{
+            errorPhone.textContent = "";
+        }
+
+
+
     }
 );
