@@ -32,7 +32,7 @@ formulario.addEventListener(
             mensaje.textContent = "";
         }
 
-        if(edad === ""){
+        if(edad !== "" || (edad<18 || edad>45)){
             errorAge.textContent = "La edad es obligatoria";
             valido = false;
         }else{
