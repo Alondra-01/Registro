@@ -40,7 +40,7 @@ formulario.addEventListener(
         }
 
         if(email === ""){
-            errorEmail.textContent = "El correo es obligatorio";
+            errorEmail.textContent = "El correo electronico es obligatorio";
             valido = false;
         }else{
             errorEmail.textContent = "";
